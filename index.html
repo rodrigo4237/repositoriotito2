@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes Rodri</title>
+    <link href="/css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/988f8e6746.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section id="header">
+      <img src="/assets/Logo empresa.png" alt="logo" class="logo">
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a id="categoriesBtn" href="#">Categorías</a></li>
+          <li><a id="aboutBtn" href="#">Atención al cliente</a></li>
+          <li id="lg-bag"><a id="userBtn" href="#"><i class="fa-solid fa-user"></i></a></li>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a id="userBtn"><i class="fa-solid fa-user"></i></a>
+        <i id="bar" class="fa-solid fa-list"></i>
+      </div>
+    </section>
+    <main id="content">
+      <section id="hero">
+        <h2>Encuentra la mejor</h2>
+        <h1>Ropa deportiva</h1>
+        <p><strong>En Deportes Rodri</strong></p>
+      </section>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Productos subidos</h2>
+      <section id="filter" class="section-p1">
+        <label for="categoryFilter">Filtrar por categoría:</label>
+        <select id="categoryFilter">
+          <option value="all">Todas</option>
+          <option value="futbol">Fútbol</option>
+          <option value="deporte">Deporte</option>
+        </select>
+        <div class="products" id="products-container"></div>
+      </section>
+      <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp-link">
+        <img src="/assets/whatsapp.png" alt="WhatsApp" />
+      </a>
+    </main>
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contactos</h4>
+        <p>
+          <strong>Número de telefono:</strong> +54 260 449-1528
+        </p>
+      </div>
+      <div class="follow">
+        <h4>Síguenos</h4>
+        <div class="icon">
+          <a href="/error.html" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="/error.html" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="/error.html" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          © 2024, Deportes Rodri - Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="javascript/productos.js"></script>
+    <script src="/javascript/dom.js"></script>
+    <script src="javascript/administracion.js"></script>
+    <script src="javascript/pagProductosSubidos.js"></script>
+    <script src="javascript/filtradoProductos.js"></script>
+  </body>
+</html>
